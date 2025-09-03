@@ -16,6 +16,7 @@
       },
       "isMain": true,
       "internalPort": 9999,
+      "runtime": "nvidia",
       "deploy": {
         "resources": {
           "reservations": {
