@@ -10,9 +10,12 @@
           { "key": "STASH_GENERATED", "value": "/generated/" },
           { "key": "STASH_METADATA", "value": "/metadata/" },
           { "key": "STASH_CACHE", "value": "/cache/" },
-          { "key": "STASH_PORT", "value": "9999" }
+          { "key": "STASH_PORT", "value": "9999" },
+          { "key": "NVIDIA_VISIBLE_DEVICES", "value" "all" },
+          { "key": "NVIDIA_DRIVER_CAPABILITIES", "value" "all"}
       ],
       "isMain": true,
+      "gpus" all,
       "internalPort": 9999,
       "volumes": [
         {
